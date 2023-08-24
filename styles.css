@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.barra{
+    position: relative;
+    padding: 0 2rem;
+    border-bottom: 1px #050000 solid;
+}
+.barra h1{
+    display: inline-block;
+    margin: 0;
+    font-size: 2.5rem;
+    margin-right: 15%;
+}    
+.menu{
+    display: inline-block;
+}
+.menu ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    color: #2a2a2a;
+}
+.submenu a img {
+    width: 10px;
+}
+.submenu:hover > a + ul{
+    display: block;
+    background-color: #949090;
+    border-radius: 0 0 15px 15px;
+}
+.menu li ul{
+    position: absolute;
+    display: none;
+}
+.menu li ul li{
+    display: block;
+}
